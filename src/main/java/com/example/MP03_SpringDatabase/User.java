@@ -8,12 +8,12 @@ import lombok.Data;
 
 @Entity
 @Data
-@Table(name = "users")
+@Table(name = "usuarios")
 public class User {
     @Id
     private Integer id;
     private String email;
-    @Column(name = "full_name")
+    @Column(name = "fullname")
     private String fullName;
     private String password;
 
