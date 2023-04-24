@@ -2,6 +2,6 @@ server:
   port: 8081
 spring:
   datasource:
-    url: jdbc:postgresql://192.168.22.122:5432/spring
+    url: jdbc:postgresql://192.168.22.124:5432/spring
     username: postgres
     password: password
